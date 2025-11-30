@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software or methodology, please cite it as below."
+type: software
+title: "TEA AI Calculus Research: Transcript Analysis Pipeline"
+version: 1.0.0
+date-released: 2025-11-29
+url: "https://github.com/[your-username]/TEA-AI-Calculus-Research"
+repository-code: "https://github.com/[your-username]/TEA-AI-Calculus-Research"
+license: MIT
+authors:
+  - family-names: "[Your Last Name]"
+    given-names: "[Your First Name]"
+    affiliation: "[Your Institution]"
+  - family-names: "Yang"
+    given-names: "Zheng"
+    affiliation: "Sichuan University"
+  - family-names: "[Co-author Last Name]"
+    given-names: "[Co-author First Name]"
+    affiliation: "[Institution]"
+keywords:
+  - "AI in education"
+  - "mathematics education"
+  - "Pirie-Kieren framework"
+  - "transcript analysis"
+  - "student-AI interaction"
+  - "Taylor series"
+  - "calculus education"
+abstract: >-
+  This repository contains the analysis scripts and protocols used in 
+  the research paper examining student-AI interactions in calculus learning
+  through the Pirie-Kieren framework for mathematical understanding.
+  The pipeline processes 127 student-AI conversation transcripts,
+  implementing validated word counting and speaker attribution methods
+  with 10% inter-rater agreement.
+preferred-citation:
+  type: article
+  title: "[Your Paper Title]"
+  authors:
+    - family-names: "[Your Last Name]"
+      given-names: "[Your First Name]"
+    - family-names: "Yang"
+      given-names: "Zheng"
+    - family-names: "[Co-author Last Name]"
+      given-names: "[Co-author First Name]"
+  journal: "[Journal Name]"
+  year: 2025
+  volume: "[Volume]"
+  issue: "[Issue]"
+  doi: "[DOI when available]"
