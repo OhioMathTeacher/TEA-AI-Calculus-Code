@@ -2,15 +2,6 @@
 
 **Generative AI as a Recursive Learning Partner: A Pirie-Kieren Analysis of Taylor Series Instruction in University Calculus**
 
-## Authors
-
-- **Michael Todd Edwards** (The Ohio State University at Lima)
-- *[Additional authors as applicable]*
-
-Technology Educator Alliance (TEA)
-
----
-
 ## Project Overview
 
 This project examines how undergraduate calculus students engage in **recursive mathematical understanding** while learning Taylor series through collaboration with generative AI. The study applies the **Pirie-Kieren model of mathematical understanding** to analyze student-AI dialogue transcripts, revealing patterns of folding back and layer progression characteristic of deep mathematical learning.
@@ -101,51 +92,6 @@ The Pirie-Kieren model describes mathematical understanding as a recursive, non-
 
 ---
 
-## Installation
-
-```bash
-pip install openai python-docx flask pandas
-export OPENAI_API_KEY='your-key-here'
-```
-
----
-
-## Key Documents
-
-| Document | Purpose |
-|----------|---------|
-| `Manuscript/main.tex` | Primary LaTeX source for submission |
-| `Templates/P00-G00-S0 PK-WAP TEMPLATE.md` | Gold standard template for PK-WAP analysis memos |
-| `Documentation/REPRODUCIBILITY_README.md` | Detailed reproducibility guidelines |
-
----
-
-## Research Questions
-
-1. How does student-AI dialogue during Taylor series instruction reflect **recursive patterns of mathematical understanding** as characterized by the Pirie-Kieren model?
-
-2. What **folding-back moments** emerge when students encounter conceptual difficulties, and how does AI scaffolding support (or hinder) this process?
-
-3. How can **GenAI-assisted qualitative analysis** maintain theoretical fidelity while enabling systematic coding across large transcript datasets?
-
----
-
-## Status
-
-📋 **Current Phase**: Manuscript Revision
-
-**Completed**:
-- [x] Transcript collection
-- [x] Phase I quantitative screening
-- [x] Phase II PK-WAP analysis
-- [x] Calibration and validation
-
-**In Progress**:
-- [ ] Manuscript revisions
-- [ ] Response to reviewers
-
----
-
 ## Data Availability
 
 Student transcript data is not included due to privacy protections. Contact the authors for data access inquiries related to research verification.
@@ -155,9 +101,3 @@ Student transcript data is not included due to privacy protections. Contact the 
 ## Citation
 
 See [CITATION.cff](CITATION.cff) for citation details.
-
----
-
-## Contact
-
-For questions about this project, contact the TEA collaborators via repository issues.
