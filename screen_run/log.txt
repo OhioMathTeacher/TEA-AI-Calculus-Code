@@ -1,0 +1,23 @@
+pk_screen_v2_1.py run at 2026-01-02T11:25:34.266956
+Input dir: /home/todd/TEA-repos/TEA-Taylor-Series-Chapter/Data/Transcripts
+
+ERROR P02-G4-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P03-GX-SX.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P06-GX-SX.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P07-G5-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P107-GX-SX.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P118-G7-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P27-G5-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P32-G9-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P36-G18-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P37-G18-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P56-GX-S5.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P65-GX-SX.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P68-G18-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P70-G13-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P72-G12-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P73-G14-S5.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P82-G13-SX.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P86-G13-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P96-G9-S5.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 
+ERROR P98-G8-S4.docx: RuntimeError: python-docx not installed. `pip install python-docx`. 

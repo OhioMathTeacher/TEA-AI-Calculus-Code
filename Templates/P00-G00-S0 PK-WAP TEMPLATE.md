@@ -45,13 +45,13 @@
 
 | Layer             | Evidence from transcript | Notes on classification |
 | ----------------- | ------------------------ | ----------------------- |
-| Primitive Doing   | …                        | …                       |
+| Primitive Knowing | …                        | …                       |
 | Image-Making      | …                        | …                       |
 | Image-Having      | …                        | …                       |
 | Property-Noticing | …                        | …                       |
 | Formalising       | …                        | …                       |
 | Observing         | …                        | …                       |
-| Axiomatizing      | …                        | …                       |
+| Structuring       | …                        | …                       |
 | Inventising       | …                        | …                       |
 
 ---
