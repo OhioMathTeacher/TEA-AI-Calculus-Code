@@ -130,7 +130,7 @@ We verified that the rules above reliably handle:
 \end{itemize}
 
 \subsection*{Determinism \& Reproducibility}
-To eliminate run-to-run variability, we executed the counting with a \textbf{fixed, deterministic configuration} (temperature~$=0$; fixed model/version; identical prompts/spec across runs). Re-processing the same files under the same configuration yielded \textbf{identical} counts. A scripted pipeline applied the rules uniformly across all transcripts; implementation details and example input/output are provided in the Supplement (Reproducibility Note).
+The Phase I counting pipeline is fully deterministic: re-processing the same transcript files under the same configuration yields \textbf{identical} counts. Because the speaker attribution and word counting are implemented as rule-based Python scripts (not LLM-based), there is no stochastic variation. A scripted pipeline applied the rules uniformly across all transcripts; implementation details and example input/output are provided in the Supplement (Reproducibility Note).
 
 \subsection*{Limitations}
 \begin{itemize}
