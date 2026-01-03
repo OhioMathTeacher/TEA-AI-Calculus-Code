@@ -68,7 +68,7 @@ Now you’re my AI teacher. Begin the activity inviting me to grab a piece of pa
 \end{tcolorbox}
 
 \subsection*{Purpose}
-We computed a quantitative baseline of participation for each transcript by estimating the proportion of \textbf{Student} vs. \textbf{AI} talk. The outputs of this phase—page-level counts, transcript totals, and \% Student Talk—were later used to sample cases for the PK--WAP analysis (Appendix\~E).
+We computed a quantitative baseline of participation for each transcript by estimating the proportion of \textbf{Student} vs. \textbf{AI} talk. The outputs of this phase—page-level counts, transcript totals, and \% Student Talk—were later used to sample cases for the PK--WAP analysis (Appendix~E).
 
 \subsection*{Materials}
 \begin{itemize}
@@ -139,12 +139,6 @@ To eliminate run-to-run variability, we executed the counting with a \textbf{fix
 \item \textbf{Export artifacts.} Rare export quirks (e.g., duplicated prompts, mid-page banners) were filtered when detected.
 \end{itemize}
 
-\subsection*{Worked Example (brief)}
-Consider a page with three Student responses interleaved with two AI prompts. After applying the attribution rules, suppose the page contains \textbf{Student = 178 words} and \textbf{AI = 120 words}. The transcript-level totals sum page counts: % Student Talk is then computed as:
-$100 \times \frac{178}{178 + 120} = 59.7\%.$
-
-\subsection*{Downstream Use (link to Appendix E)}
-The Phase~~I outputs (totals and \% Student Talk) were used to select \textbf{10 high}, \textbf{10 low}, and \textbf{10 noteworthy} cases for the PK--WAP analysis in Appendix~~E, which focuses on qualitative interpretation rather than counting.
 \newpage
 
 \section*{Appendix C: AI and Individual Student Talk Metrics}
@@ -294,9 +288,8 @@ P98-G8-S4 & 854 & 0 & 854 & 100.0 & 0.0 \\
 P99-G2-S4 & 346 & 327 & 673 & 51.4 & 48.6 \\
 \bottomrule
 \end{longtable}
-\footnotetext{Data unavailable due to OCR limitations. Placeholder row retained for dataset continuity.}
 \begin{tablenotes}[para,flushleft]
-\footnotesize\textit{Note.} Cases flagged as probable AI-profiling or demonstration scripts (shaded) were excluded from anchor-case selection but retained in descriptive analyses.
+\footnotesize\textit{Note.} Cases flagged as probable AI-profiling or demonstration scripts were excluded from anchor-case selection but retained in descriptive analyses. Cases showing 0 AI words (e.g., P31, P52, P53) reflect transcripts where student-authored prompts or reflections were exported without the corresponding AI responses; cases showing 0 Student words (e.g., P06, P07, P27) represent AI-only demonstration outputs or incomplete exports. P96 shows 0/0/0 due to OCR limitations on the source document; this placeholder row was retained for dataset continuity.
 \end{tablenotes}
 \newpage
 \section*{Appendix D: Post-Activity Survey}
@@ -376,13 +369,14 @@ P99-G2-S4 & 346 & 327 & 673 & 51.4 & 48.6 \\
 \section*{Appendix E: Pirie--Kieren Work Analysis Protocol}
 
 \begin{tcolorbox}[colback=blue!5,colframe=blue!40,boxrule=0.5pt,arc=1mm,left=4pt,right=4pt,top=2pt,bottom=2pt]
-\small\textbf{Note:} Downloadable Python code implementing this protocol is freely available at:\\ \url{https://github.com/OhioMathTeacher/TEA-Taylor-Series-Paper/blob/main/Scripts/pkwap_analyzer.py}
+\small\textbf{Note:} Downloadable Python code implementing this protocol is freely available at:\\ \url{https://github.com/OhioMathTeacher/TEA-Taylor-Series-Paper/blob/main/Scripts/pkwap_analyzer.py}\\
+A Flask-based transcript reviewer tool for case selection is also available at:\\ \url{https://github.com/OhioMathTeacher/TEA-Taylor-Series-Paper/blob/main/Scripts/transcript_reviewer.py}
 \end{tcolorbox}
 
 \subsection*{I. Overview of the Method}
 Initially, we reviewed all 127 transcripts to estimate word counts and calculate student talk percentages as a proxy for engagement (see Appendix C). We selected 10 transcripts with the highest student talk percentages, 10 with the lowest percentages, and 10 "noteworthy" cases (as defined in Section 4.3) to form a contrastive sample of 30 anchor cases. 
 
-Transcripts with negligible student contribution (i.e., <10\%) were excluded and replaced with the next-lowest cases to ensure sufficient material for Pirie-Kieren analysis. Finally, we reviewed the full set of memos to identify recurring themes, interpret contrasts across the high- and low-engagement groups, and generate analytic trends related to recursive reasoning, conceptual depth, and student agency.
+Transcripts with negligible student contribution (i.e., $<$10\%) or negligible AI contribution (i.e., 100\% student words) were excluded and replaced with the next-highest or next-lowest cases, respectively, to ensure sufficient dialogic material for Pirie-Kieren analysis. Finally, we reviewed the full set of memos to identify recurring themes, interpret contrasts across the high- and low-engagement groups, and generate analytic trends related to recursive reasoning, conceptual depth, and student agency.
 
 \textbf{Step 1: Page-by-Page Analysis} \\
 For each page of the transcript:
